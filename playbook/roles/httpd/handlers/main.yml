@@ -1,6 +1,0 @@
----
-- name: Enable service httpd
-  become: yes
-  service:
-    name: httpd
-    enabled: yes
