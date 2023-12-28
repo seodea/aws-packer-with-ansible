@@ -1,0 +1,5 @@
+- name: start chronyd
+  become: yes
+  service:
+    name: chronyd
+    enabled: yes

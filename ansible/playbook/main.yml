@@ -1,0 +1,8 @@
+- name: Amazon Linux based Java AMI
+  hosts: all
+  remote_user: ec2-user
+  roles:
+  #  - common
+   - httpd
+  #  - jdk8
+  #  - pinpoint
